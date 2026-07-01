@@ -16,9 +16,10 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 
 ### Retail Electronics Analytics Pipeline
 
-Python analytics project that transforms raw product review data into category, brand, rating, and data-quality insights for BI reporting.
+Python analytics project that transforms raw product review data into product, rating, review-volume, and data-quality insights for BI reporting.
 
-**Planned stack:** Python, Pandas, SQL/DuckDB, Power BI or Tableau, data validation, executive summary.
+**Repo:** [retail-electronics-analytics](https://github.com/Finn043/retail-electronics-analytics)  
+**Stack:** Python, JSONL streaming, CSV marts, data validation, executive summary.
 
 ### MacroBrief
 
@@ -64,4 +65,3 @@ Raw data / documents / APIs
 
 - LinkedIn: [linkedin.com/in/tin-luong](https://linkedin.com/in/tin-luong)
 - Email: [tin.bao.luong@gmail.com](mailto:tin.bao.luong@gmail.com)
-
