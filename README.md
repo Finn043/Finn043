@@ -25,7 +25,8 @@ Python analytics project that transforms raw product review data into product, r
 
 Economic insight tool that fetches macroeconomic time-series data, compares indicators, detects trend shifts, and generates stakeholder-ready briefs.
 
-**Planned stack:** TypeScript or Python, API adapters, time-series transformations, charts, LLM-assisted summaries.
+**Repo:** [macrobrief](https://github.com/Finn043/macrobrief)  
+**Stack:** Python, World Bank API, time-series transformations, comparison marts, markdown briefs.
 
 ### InsightRAG
 
