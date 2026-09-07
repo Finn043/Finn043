@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Animated data orbit banner">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="48%" stop-color="#2563eb" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect width="1200" height="360" fill="#020617"/>
+  <circle cx="600" cy="180" r="126" fill="url(#core)" opacity=".72"/>
+  <g transform="translate(600 180)" fill="none" stroke="url(#line)" stroke-width="2" opacity=".9">
+    <circle r="78" stroke-dasharray="10 12">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="116" stroke-dasharray="24 18">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="154" stroke-dasharray="3 16">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="34s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g opacity=".52" filter="url(#soft)">
+    <circle cx="268" cy="92" r="4" fill="#38bdf8"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="884" cy="98" r="5" fill="#a78bfa"><animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="256" r="4" fill="#34d399"><animate attributeName="opacity" values=".2;1;.2" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="176" cy="268" r="3" fill="#f8fafc"><animate attributeName="opacity" values=".15;.8;.15" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+  <path d="M80 276 C260 188 346 232 500 154 S780 90 1120 148" fill="none" stroke="url(#line)" stroke-width="2" opacity=".28">
+    <animate attributeName="stroke-dasharray" values="1 18;18 10;1 18" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <text x="600" y="170" text-anchor="middle" fill="#f8fafc" font-size="42" font-family="Arial" font-weight="700">Tin Luong</text>
+  <text x="600" y="205" text-anchor="middle" fill="#bae6fd" font-size="18" font-family="Arial">Data systems, BI marts, and applied AI</text>
+</svg>
