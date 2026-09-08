@@ -59,23 +59,34 @@ const descriptions = {
 };
 
 const iconBase = "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons";
-const technologyIcons = [
-  ["Python", "python.png"],
-  ["TypeScript", "typescript.png"],
-  ["JavaScript", "javascript.png"],
-  ["React", "react.png"],
-  ["Pandas", "pandas.png"],
-  ["NumPy", "numpy.png"],
-  ["FastAPI", "fastapi.png"],
-  ["PostgreSQL", "postgresql.png"],
-  ["Docker", "docker.png"],
-  ["GitHub Actions", "githubactions.png"],
-  ["Git", "git.png"],
-  ["GitHub", "github.png"],
+const technologyGroups = [
+  ["Data", [
+    ["Python", "python.png"],
+    ["Pandas", "pandas.png"],
+    ["NumPy", "numpy.png"],
+    ["PostgreSQL", "postgresql.png"],
+  ]],
+  ["Cloud and Engineering", [
+    ["Docker", "docker.png"],
+    ["GitHub Actions", "githubactions.png"],
+    ["Git", "git.png"],
+    ["GitHub", "github.png"],
+  ]],
+  ["Analytics and BI", [
+    ["Apache Spark", "apache_spark.png"],
+    ["Databricks", "databricks.png"],
+  ]],
+  ["AI and ML", [
+    ["FastAPI", "fastapi.png"],
+    ["PyTorch", "pytorch.png"],
+    ["Hugging Face", "huggingface.png"],
+  ]],
 ];
-const technologyIconHtml = technologyIcons
-  .map(([name, file]) => `<img src="${iconBase}/${file}" alt="${name}" title="${name}" width="44" height="44" />`)
-  .join("\n  ");
+const technologyIconHtml = technologyGroups
+  .map(([group, icons]) => `| ${group} | ${icons
+    .map(([name, file]) => `<img src="${iconBase}/${file}" alt="${name}" title="${name}" width="38" height="38" />`)
+    .join(" ")} |`)
+  .join("\n");
 
 const languageRows = top(languages, 5)
   .map(([lang, count]) => `| ${lang} | ${count} repo${count === 1 ? "" : "s"} |`)
@@ -151,9 +162,9 @@ Raw data / documents / APIs
 
 ## Technical Stack
 
-<p align="center">
-  ${technologyIconHtml}
-</p>
+| Area | Technologies |
+| --- | --- |
+${technologyIconHtml}
 
 **Languages:** Python, SQL, TypeScript  
 **Analytics:** Pandas, NumPy, Power BI, Tableau, Looker, Excel  
