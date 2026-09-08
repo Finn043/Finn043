@@ -38,28 +38,42 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 - API integrations and typed tool interfaces for analyst workflows
 - Applied AI for decision support, not generic demos
 
-## Building Now
+## Selected Work
+
+### [icmra-strategic-analytics](https://github.com/Finn043/icmra-strategic-analytics)
+
+Power BI fundraising analytics project covering 2019-2025 pledges, donor behavior, campaign concentration, cohort retention, and board-level risk.
+
+**Stack:** Power BI, Power Query, BI semantic modelling, RFM segmentation, CLV, cohort analysis  
+**Updated:** 2026-08-24  
+
+### [automated-etl-analytics](https://github.com/Finn043/automated-etl-analytics)
+
+Automated ETL and analytics dashboard project with BigQuery-ready modelling, data-quality tests, star schema marts, and Looker Studio dashboard design.
+
+**Stack:** Python, Pandas, SQLAlchemy, PostgreSQL, BigQuery, GoogleSQL, Looker Studio  
+**Updated:** 2026-07-19  
 
 ### [tin-luong-portfolio](https://github.com/Finn043/tin-luong-portfolio)
 
 Personal portfolio site for analytics, BI, and applied AI work.
 
-**Stack:** TypeScript  
+**Stack:** React, TypeScript, Vite, Netlify, GitHub Actions  
 **Updated:** 2026-08-25  
+
+### [macrobrief](https://github.com/Finn043/macrobrief)
+
+Economic insight tool with World Bank API ingestion, time-series marts, stakeholder briefs, and a live Looker Studio dashboard.
+
+**Stack:** Python, World Bank API, time-series marts, Looker Studio, markdown reporting  
+**Updated:** 2026-08-22  
 
 ### [retail-electronics-analytics](https://github.com/Finn043/retail-electronics-analytics)
 
 Python analytics project that transforms raw product review data into product, rating, review-volume, and data-quality insights for BI reporting.
 
-**Stack:** Python  
+**Stack:** Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports  
 **Updated:** 2026-07-02  
-
-### [macrobrief](https://github.com/Finn043/macrobrief)
-
-Economic insight tool that fetches macroeconomic time-series data, compares indicators, detects trend shifts, and generates stakeholder-ready briefs.
-
-**Stack:** Python  
-**Updated:** 2026-08-22  
 
 ### InsightRAG
 
@@ -82,9 +96,9 @@ Raw data / documents / APIs
 
 | Area | Technologies |
 | --- | --- |
-| Data | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pandas.png" alt="Pandas" title="Pandas" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/numpy.png" alt="NumPy" title="NumPy" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="38" height="38" /> |
-| Cloud and Engineering | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" title="Docker" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/githubactions.png" alt="GitHub Actions" title="GitHub Actions" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub" width="38" height="38" /> |
-| Analytics and BI | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/apache_spark.png" alt="Apache Spark" title="Apache Spark" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/databricks.png" alt="Databricks" title="Databricks" width="38" height="38" /> |
+| Data | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pandas.png" alt="Pandas" title="Pandas" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/numpy.png" alt="NumPy" title="NumPy" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlite.png" alt="SQLite" title="SQLite" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlalchemy.png" alt="SQLAlchemy" title="SQLAlchemy" width="38" height="38" /> |
+| Cloud and Engineering | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/gcp.png" alt="GCP" title="GCP" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" title="Docker" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/githubactions.png" alt="GitHub Actions" title="GitHub Actions" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub" width="38" height="38" /> |
+| Analytics and BI | <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square" alt="Power BI" title="Power BI" /> <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat-square" alt="Looker Studio" title="Looker Studio" /> <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square" alt="BigQuery" title="BigQuery" /> <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square" alt="Tableau" title="Tableau" /> <img src="https://img.shields.io/badge/Excel-217346?style=flat-square" alt="Excel" title="Excel" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/apache_spark.png" alt="Apache Spark" title="Apache Spark" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/databricks.png" alt="Databricks" title="Databricks" width="38" height="38" /> |
 | AI and ML | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/fastapi.png" alt="FastAPI" title="FastAPI" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pytorch.png" alt="PyTorch" title="PyTorch" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/huggingface.png" alt="Hugging Face" title="Hugging Face" width="38" height="38" /> |
 
 **Languages:** Python, SQL, TypeScript  

@@ -47,32 +47,54 @@ const recent = repos.filter((repo) => {
 }).length;
 
 const featured = [
+  "icmra-strategic-analytics",
+  "automated-etl-analytics",
   "tin-luong-portfolio",
-  "retail-electronics-analytics",
   "macrobrief",
+  "retail-electronics-analytics",
 ].map((name) => repos.find((repo) => repo.name === name)).filter(Boolean);
 
 const descriptions = {
+  "icmra-strategic-analytics": "Power BI fundraising analytics project covering 2019-2025 pledges, donor behavior, campaign concentration, cohort retention, and board-level risk.",
+  "automated-etl-analytics": "Automated ETL and analytics dashboard project with BigQuery-ready modelling, data-quality tests, star schema marts, and Looker Studio dashboard design.",
   "tin-luong-portfolio": "Personal portfolio site for analytics, BI, and applied AI work.",
   "retail-electronics-analytics": "Python analytics project that transforms raw product review data into product, rating, review-volume, and data-quality insights for BI reporting.",
-  macrobrief: "Economic insight tool that fetches macroeconomic time-series data, compares indicators, detects trend shifts, and generates stakeholder-ready briefs.",
+  macrobrief: "Economic insight tool with World Bank API ingestion, time-series marts, stakeholder briefs, and a live Looker Studio dashboard.",
+};
+
+const stacks = {
+  "icmra-strategic-analytics": "Power BI, Power Query, BI semantic modelling, RFM segmentation, CLV, cohort analysis",
+  "automated-etl-analytics": "Python, Pandas, SQLAlchemy, PostgreSQL, BigQuery, GoogleSQL, Looker Studio",
+  "tin-luong-portfolio": "React, TypeScript, Vite, Netlify, GitHub Actions",
+  "retail-electronics-analytics": "Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports",
+  macrobrief: "Python, World Bank API, time-series marts, Looker Studio, markdown reporting",
 };
 
 const iconBase = "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons";
+const badge = (label, color) =>
+  `<img src="https://img.shields.io/badge/${label.replaceAll(" ", "%20")}-${color}?style=flat-square" alt="${label}" title="${label}" />`;
 const technologyGroups = [
   ["Data", [
     ["Python", "python.png"],
     ["Pandas", "pandas.png"],
     ["NumPy", "numpy.png"],
     ["PostgreSQL", "postgresql.png"],
+    ["SQLite", "sqlite.png"],
+    ["SQLAlchemy", "sqlalchemy.png"],
   ]],
   ["Cloud and Engineering", [
+    ["GCP", "gcp.png"],
     ["Docker", "docker.png"],
     ["GitHub Actions", "githubactions.png"],
     ["Git", "git.png"],
     ["GitHub", "github.png"],
   ]],
   ["Analytics and BI", [
+    ["Power BI", null, "F2C811"],
+    ["Looker Studio", null, "4285F4"],
+    ["BigQuery", null, "669DF6"],
+    ["Tableau", null, "E97627"],
+    ["Excel", null, "217346"],
     ["Apache Spark", "apache_spark.png"],
     ["Databricks", "databricks.png"],
   ]],
@@ -84,7 +106,9 @@ const technologyGroups = [
 ];
 const technologyIconHtml = technologyGroups
   .map(([group, icons]) => `| ${group} | ${icons
-    .map(([name, file]) => `<img src="${iconBase}/${file}" alt="${name}" title="${name}" width="38" height="38" />`)
+    .map(([name, file, color]) => file
+      ? `<img src="${iconBase}/${file}" alt="${name}" title="${name}" width="38" height="38" />`
+      : badge(name, color))
     .join(" ")} |`)
   .join("\n");
 
@@ -134,13 +158,13 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 - API integrations and typed tool interfaces for analyst workflows
 - Applied AI for decision support, not generic demos
 
-## Building Now
+## Selected Work
 
 ${featured.map((repo) => `### [${repo.name}](${repo.html_url})
 
-${repo.description || descriptions[repo.name] || "Portfolio project."}
+${descriptions[repo.name] || repo.description || "Portfolio project."}
 
-**Stack:** ${repo.language ?? "Mixed"}  
+**Stack:** ${stacks[repo.name] ?? repo.language ?? "Mixed"}  
 **Updated:** ${repo.pushed_at.slice(0, 10)}  
 `).join("\n")}
 ### InsightRAG
