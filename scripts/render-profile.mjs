@@ -58,6 +58,25 @@ const descriptions = {
   macrobrief: "Economic insight tool that fetches macroeconomic time-series data, compares indicators, detects trend shifts, and generates stakeholder-ready briefs.",
 };
 
+const iconBase = "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons";
+const technologyIcons = [
+  ["Python", "python.png"],
+  ["TypeScript", "typescript.png"],
+  ["JavaScript", "javascript.png"],
+  ["React", "react.png"],
+  ["Pandas", "pandas.png"],
+  ["NumPy", "numpy.png"],
+  ["FastAPI", "fastapi.png"],
+  ["PostgreSQL", "postgresql.png"],
+  ["Docker", "docker.png"],
+  ["GitHub Actions", "githubactions.png"],
+  ["Git", "git.png"],
+  ["GitHub", "github.png"],
+];
+const technologyIconHtml = technologyIcons
+  .map(([name, file]) => `<img src="${iconBase}/${file}" alt="${name}" title="${name}" width="44" height="44" />`)
+  .join("\n  ");
+
 const languageRows = top(languages, 5)
   .map(([lang, count]) => `| ${lang} | ${count} repo${count === 1 ? "" : "s"} |`)
   .join("\n");
@@ -131,6 +150,10 @@ Raw data / documents / APIs
 \`\`\`
 
 ## Technical Stack
+
+<p align="center">
+  ${technologyIconHtml}
+</p>
 
 **Languages:** Python, SQL, TypeScript  
 **Analytics:** Pandas, NumPy, Power BI, Tableau, Looker, Excel  
