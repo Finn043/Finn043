@@ -38,48 +38,129 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 - API integrations and typed tool interfaces for analyst workflows
 - Applied AI for decision support, not generic demos
 
+## Career Experience
+
+### Filum.ai - Data Analyst Intern (2024)
+
+**Impact:** Built KPI dashboards and lead scoring models that supported a 15% conversion improvement.  
+**Tools:** BigQuery, SQL, Dashboard QA, KPI Design
+
+- Designed customer engagement, conversion, and retention dashboards across 50+ KPIs.
+- Built lead scoring analysis in BigQuery to identify stronger conversion signals.
+- Translated stakeholder questions into metric definitions and reusable reporting views.
+
+### CoverGo - AI Engineer Intern (2024)
+
+**Impact:** Created validation datasets and Python checks for insurance AI workflows, reducing manual review time by 25%.  
+**Tools:** Python, Pandas, NLP QA, Test Datasets
+
+- Built structured test data covering insurance-product questions, edge cases, and expected answers.
+- Automated repetitive review checks with Python so QA evidence was easier to reproduce.
+- Documented model-output issues so product and engineering teams could triage failures faster.
+
+### MoMo - Data Analyst Intern (2023)
+
+**Impact:** Supported daily data operations over 1M+ rows with 99.95% uptime and trained teams on dashboard usage.  
+**Tools:** SQL, Excel, BI Dashboards, Data Operations
+
+- Monitored daily reporting pipelines and helped maintain operational dashboards for business teams.
+- Prepared analysis for product launches and engagement reporting across multiple departments.
+- Trained stakeholders on dashboard usage, metric interpretation, and recurring reporting workflows.
+
+
 ## Selected Work
 
-### [icmra-strategic-analytics](https://github.com/Finn043/icmra-strategic-analytics)
+### MacroBrief
 
-Power BI fundraising analytics project covering 2019-2025 pledges, donor behavior, campaign concentration, cohort retention, and board-level risk.
-
-**Stack:** Power BI, Power Query, BI semantic modelling, RFM segmentation, CLV, cohort analysis  
-**Updated:** 2026-08-24  
-
-### [automated-etl-analytics](https://github.com/Finn043/automated-etl-analytics)
-
-Automated ETL and analytics dashboard project with BigQuery-ready modelling, data-quality tests, star schema marts, and Looker Studio dashboard design.
-
-**Stack:** Python, Pandas, SQLAlchemy, PostgreSQL, BigQuery, GoogleSQL, Looker Studio  
-**Updated:** 2026-07-19  
-
-### [tin-luong-portfolio](https://github.com/Finn043/tin-luong-portfolio)
-
-Personal portfolio site for analytics, BI, and applied AI work.
-
-**Stack:** React, TypeScript, Vite, Netlify, GitHub Actions  
-**Updated:** 2026-08-25  
-
-### [macrobrief](https://github.com/Finn043/macrobrief)
+**Status:** Main completed project  
+**Impact:** Cut macro brief generation time by 45%.  
+**Stack:** Python, World Bank API, time-series marts, Looker Studio, markdown reporting  
+**Updated:** 2026-08-22  
+**Links:** [GitHub](https://github.com/Finn043/macrobrief) / [Looker Studio dashboard](https://datastudio.google.com/reporting/91b52781-28ab-4d0d-aa12-716720592161)
 
 Economic insight tool with World Bank API ingestion, time-series marts, stakeholder briefs, and a live Looker Studio dashboard.
 
-**Stack:** Python, World Bank API, time-series marts, Looker Studio, markdown reporting  
-**Updated:** 2026-08-22  
+- Fetches World Bank GDP, inflation, unemployment, and export indicators for Australia, the United States, and Vietnam.
+- Normalizes raw API JSON into long-form observations, summary marts, country snapshots, and stakeholder-ready markdown briefs.
+- Publishes a live Looker Studio dashboard with country filters, historical trends, latest-vs-average comparisons, and KPI scorecards.
 
-### [retail-electronics-analytics](https://github.com/Finn043/retail-electronics-analytics)
+### ICMRA Strategic Analytics 2019-2025
+
+**Status:** Main completed Power BI project  
+**Impact:** Analyzed $32.93M in pledges across 2,330 donors and 45,100 transactions.  
+**Stack:** Power BI, Power Query, BI semantic modelling, RFM segmentation, CLV, cohort analysis  
+**Updated:** 2026-08-24  
+**Links:** [GitHub](https://github.com/Finn043/icmra-strategic-analytics)
+
+Power BI fundraising analytics project covering 2019-2025 pledges, donor behavior, campaign concentration, cohort retention, and board-level risk.
+
+- Built a Power BI dashboard, semantic model, executive infographic, and strategic analytics report.
+- Measured 1,077% campaign ROI and identified 2024-2025 revenue decline risk.
+- Used RFM segmentation, CLV analysis, cohort retention, campaign concentration, and what-if scenario planning.
+
+### Snowflake Customer Revenue Mart
+
+**Status:** Active work  
+**Impact:** Models raw customer, order, and marketing spend data into BI-ready revenue marts.  
+**Stack:** Snowflake, SQL, Snowsight, BI-ready marts, data quality checks  
+**Updated:** 2026-08-24  
+**Links:** [GitHub](https://github.com/Finn043/snowflake-customer-revenue-mart)
+
+Snowflake analytics engineering project for monthly revenue, customer value, CAC, and ROAS reporting.
+
+- Creates RAW, STAGING, and MARTS schemas in Snowflake with small, inspectable source tables.
+- Builds monthly revenue, customer revenue, channel performance, and fact-order reporting tables.
+- Includes quality checks for duplicate orders, orphan records, null keys, and revenue reconciliation variance.
+
+### Automated ETL Analytics
+
+**Status:** Active work / beta  
+**Impact:** Processes 500,000 deterministic records per run into validated reporting outputs.  
+**Stack:** Python, Pandas, SQLAlchemy, PostgreSQL, BigQuery, GoogleSQL, Looker Studio  
+**Updated:** 2026-07-19  
+**Links:** [GitHub](https://github.com/Finn043/automated-etl-analytics)
+
+Automated ETL and analytics dashboard project with BigQuery-ready modelling, data-quality tests, star schema marts, and Looker Studio dashboard design.
+
+- Ingests, validates, and loads transaction/taxi-style data into raw, clean, and aggregate layers.
+- Documents a Sandbox-first BigQuery path with raw, staging, core, analytics, and monitoring layers.
+- Designs Looker Studio dashboard flow for business KPIs, demand analysis, and pipeline health.
+
+### Retail Electronics Analytics Pipeline
+
+**Status:** Active work / beta  
+**Impact:** Turns 250,000 valid Amazon review rows into product, rating, trend, and data-quality marts.  
+**Stack:** Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports  
+**Updated:** 2026-07-02  
+**Links:** [GitHub](https://github.com/Finn043/retail-electronics-analytics)
 
 Python analytics project that transforms raw product review data into product, rating, review-volume, and data-quality insights for BI reporting.
 
-**Stack:** Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports  
-**Updated:** 2026-07-02  
+- Streams a large JSONL review dataset without loading the full raw file into memory.
+- Exports star-schema model tables, BI-ready CSV marts, an Excel workbook, and a static dashboard preview.
+- Prepares Looker Studio sources for product performance, monthly trends, rating distribution, top terms, and data quality.
+
+### Portfolio Website
+
+**Status:** Live Netlify portfolio  
+**Impact:** Public portfolio hub for analytics projects, resume, dashboard previews, and AI assistant.  
+**Stack:** React, TypeScript, Vite, Netlify, GitHub Actions  
+**Updated:** 2026-08-25  
+**Links:** [Live site](https://tin-luong-portfolio.netlify.app) / [GitHub](https://github.com/Finn043/tin-luong-portfolio)
+
+Personal portfolio site for analytics, BI, and applied AI work.
+
+- Built with React, TypeScript, Vite, Netlify Functions, and a local portfolio knowledge base.
+- Includes project cards for MacroBrief, ICMRA, Snowflake, Automated ETL, and Retail Electronics.
+- Provides a small assistant endpoint for recruiter-style questions about experience, projects, stack, and contact details.
+
 
 ### InsightRAG
 
-Business document intelligence system for querying reports, KPI definitions, policies, and analytics specs with hybrid retrieval and cited answers.
+**Status:** Planned applied AI project  
+**Stack:** FastAPI, React, vector search, BM25, reranking, source citations, retrieval evaluation
 
-**Planned stack:** FastAPI, React, vector search, BM25, reranking, source citations, retrieval evaluation.
+Business document intelligence system for querying reports, KPI definitions, policies, and analytics specs with hybrid retrieval and cited answers.
 
 ## Project Direction
 
@@ -96,7 +177,7 @@ Raw data / documents / APIs
 
 | Area | Technologies |
 | --- | --- |
-| Data | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pandas.png" alt="Pandas" title="Pandas" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/numpy.png" alt="NumPy" title="NumPy" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlite.png" alt="SQLite" title="SQLite" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlalchemy.png" alt="SQLAlchemy" title="SQLAlchemy" width="38" height="38" /> |
+| Data | <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square" alt="Snowflake" title="Snowflake" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pandas.png" alt="Pandas" title="Pandas" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/numpy.png" alt="NumPy" title="NumPy" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlite.png" alt="SQLite" title="SQLite" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlalchemy.png" alt="SQLAlchemy" title="SQLAlchemy" width="38" height="38" /> |
 | Cloud and Engineering | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/gcp.png" alt="GCP" title="GCP" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" title="Docker" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/githubactions.png" alt="GitHub Actions" title="GitHub Actions" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub" width="38" height="38" /> |
 | Analytics and BI | <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square" alt="Power BI" title="Power BI" /> <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat-square" alt="Looker Studio" title="Looker Studio" /> <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square" alt="BigQuery" title="BigQuery" /> <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square" alt="Tableau" title="Tableau" /> <img src="https://img.shields.io/badge/Excel-217346?style=flat-square" alt="Excel" title="Excel" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/apache_spark.png" alt="Apache Spark" title="Apache Spark" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/databricks.png" alt="Databricks" title="Databricks" width="38" height="38" /> |
 | AI and ML | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/fastapi.png" alt="FastAPI" title="FastAPI" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pytorch.png" alt="PyTorch" title="PyTorch" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/huggingface.png" alt="Hugging Face" title="Hugging Face" width="38" height="38" /> |
@@ -106,13 +187,6 @@ Raw data / documents / APIs
 **Data:** PostgreSQL, BigQuery, Snowflake, DuckDB, dbt  
 **AI:** RAG, LangChain, vector search, prompt engineering, evaluation  
 **Backend & Tools:** FastAPI, Docker, GitHub Actions, REST APIs
-
-## Experience Themes
-
-- Built KPI dashboards and data models for business teams using Looker and BigQuery
-- Developed Python automation for validation, QA, and analytics workflows
-- Worked with production data pipelines processing high-volume operational data
-- Delivered stakeholder-facing insights across product, customer success, and executive audiences
 
 ## Repository Languages
 
