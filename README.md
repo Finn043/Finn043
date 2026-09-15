@@ -145,7 +145,7 @@ Python analytics project that transforms raw product review data into product, r
 **Status:** Live Netlify portfolio  
 **Impact:** Public portfolio hub for analytics projects, resume, dashboard previews, and AI assistant.  
 **Stack:** React, TypeScript, Vite, Netlify, GitHub Actions  
-**Updated:** 2026-08-25  
+**Updated:** 2026-09-15  
 **Links:** [Live site](https://tin-luong-portfolio.netlify.app) / [GitHub](https://github.com/Finn043/tin-luong-portfolio)
 
 Personal portfolio site for analytics, BI, and applied AI work.
@@ -203,4 +203,4 @@ Raw data / documents / APIs
 - LinkedIn: [linkedin.com/in/tin-luong](https://linkedin.com/in/tin-luong)
 - Email: [tin.bao.luong@gmail.com](mailto:tin.bao.luong@gmail.com)
 
-<sub>Last rendered: 2026-09-14. Metrics refresh daily with GitHub Actions.</sub>
+<sub>Last rendered: 2026-09-15. Metrics refresh daily with GitHub Actions.</sub>
