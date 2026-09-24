@@ -175,18 +175,21 @@ Raw data / documents / APIs
 
 ## Technical Stack
 
-| Area | Technologies |
-| --- | --- |
-| Data | <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square" alt="Snowflake" title="Snowflake" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pandas.png" alt="Pandas" title="Pandas" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/numpy.png" alt="NumPy" title="NumPy" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlite.png" alt="SQLite" title="SQLite" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlalchemy.png" alt="SQLAlchemy" title="SQLAlchemy" width="38" height="38" /> |
-| Cloud and Engineering | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/gcp.png" alt="GCP" title="GCP" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" title="Docker" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/githubactions.png" alt="GitHub Actions" title="GitHub Actions" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub" width="38" height="38" /> |
-| Analytics and BI | <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square" alt="Power BI" title="Power BI" /> <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat-square" alt="Looker Studio" title="Looker Studio" /> <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square" alt="BigQuery" title="BigQuery" /> <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square" alt="Tableau" title="Tableau" /> <img src="https://img.shields.io/badge/Excel-217346?style=flat-square" alt="Excel" title="Excel" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/apache_spark.png" alt="Apache Spark" title="Apache Spark" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/databricks.png" alt="Databricks" title="Databricks" width="38" height="38" /> |
-| AI and ML | <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/fastapi.png" alt="FastAPI" title="FastAPI" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pytorch.png" alt="PyTorch" title="PyTorch" width="38" height="38" /> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/huggingface.png" alt="Hugging Face" title="Hugging Face" width="38" height="38" /> |
+### Data
 
-**Languages:** Python, SQL, TypeScript  
-**Analytics:** Pandas, NumPy, Power BI, Tableau, Looker, Excel  
-**Data:** PostgreSQL, BigQuery, Snowflake, DuckDB, dbt  
-**AI:** RAG, LangChain, vector search, prompt engineering, evaluation  
-**Backend & Tools:** FastAPI, Docker, GitHub Actions, REST APIs
+![SNOWFLAKE](https://img.shields.io/badge/SNOWFLAKE-29B5E8?style=for-the-badge&logo=snowflake&logoColor=black) ![PYTHON](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PANDAS](https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NUMPY](https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white) ![POSTGRESQL](https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLITE](https://img.shields.io/badge/SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![SQLALCHEMY](https://img.shields.io/badge/SQLALCHEMY-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+
+### Cloud and Engineering
+
+![GOOGLE_CLOUD](https://img.shields.io/badge/GOOGLE_CLOUD-4285F4?style=for-the-badge&logo=googlecloud&logoColor=black) ![DOCKER](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=black) ![GITHUB_ACTIONS](https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=black) ![GIT](https://img.shields.io/badge/GIT-F03C2E?style=for-the-badge&logo=git&logoColor=black) ![GITHUB](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### Analytics and BI
+
+![POWER_BI](https://img.shields.io/badge/POWER_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![LOOKER_STUDIO](https://img.shields.io/badge/LOOKER_STUDIO-4285F4?style=for-the-badge&logo=looker&logoColor=black) ![GOOGLE_BIGQUERY](https://img.shields.io/badge/GOOGLE_BIGQUERY-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=black) ![TABLEAU](https://img.shields.io/badge/TABLEAU-E97627?style=for-the-badge&logo=tableau&logoColor=black) ![MICROSOFT_EXCEL](https://img.shields.io/badge/MICROSOFT_EXCEL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) ![APACHE_SPARK](https://img.shields.io/badge/APACHE_SPARK-E25A1C?style=for-the-badge&logo=apachespark&logoColor=black) ![DATABRICKS](https://img.shields.io/badge/DATABRICKS-FF3621?style=for-the-badge&logo=databricks&logoColor=black)
+
+### AI and ML
+
+![FASTAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=black) ![PYTORCH](https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=black) ![HUGGING_FACE](https://img.shields.io/badge/HUGGING_FACE-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 ## Repository Languages
 

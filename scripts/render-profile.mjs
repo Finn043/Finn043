@@ -216,48 +216,43 @@ ${project.evidence.map((line) => `- ${line}`).join("\n")}
 `;
 }).join("\n");
 
-const iconBase = "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons";
-const badge = (label, color) =>
-  `<img src="https://img.shields.io/badge/${label.replaceAll(" ", "%20")}-${color}?style=flat-square" alt="${label}" title="${label}" />`;
+const badge = (label, color, logo, logoColor) =>
+  `![${label}](https://img.shields.io/badge/${label}-${color}?style=for-the-badge&logo=${logo}&logoColor=${logoColor})`;
 const technologyGroups = [
   ["Data", [
-    ["Snowflake", null, "29B5E8"],
-    ["Python", "python.png"],
-    ["Pandas", "pandas.png"],
-    ["NumPy", "numpy.png"],
-    ["PostgreSQL", "postgresql.png"],
-    ["SQLite", "sqlite.png"],
-    ["SQLAlchemy", "sqlalchemy.png"],
+    ["SNOWFLAKE", "29B5E8", "snowflake", "black"],
+    ["PYTHON", "3776AB", "python", "white"],
+    ["PANDAS", "150458", "pandas", "white"],
+    ["NUMPY", "013243", "numpy", "white"],
+    ["POSTGRESQL", "4169E1", "postgresql", "white"],
+    ["SQLITE", "003B57", "sqlite", "white"],
+    ["SQLALCHEMY", "D71F00", "sqlalchemy", "white"],
   ]],
   ["Cloud and Engineering", [
-    ["GCP", "gcp.png"],
-    ["Docker", "docker.png"],
-    ["GitHub Actions", "githubactions.png"],
-    ["Git", "git.png"],
-    ["GitHub", "github.png"],
+    ["GOOGLE_CLOUD", "4285F4", "googlecloud", "black"],
+    ["DOCKER", "2496ED", "docker", "black"],
+    ["GITHUB_ACTIONS", "2088FF", "githubactions", "black"],
+    ["GIT", "F03C2E", "git", "black"],
+    ["GITHUB", "181717", "github", "white"],
   ]],
   ["Analytics and BI", [
-    ["Power BI", null, "F2C811"],
-    ["Looker Studio", null, "4285F4"],
-    ["BigQuery", null, "669DF6"],
-    ["Tableau", null, "E97627"],
-    ["Excel", null, "217346"],
-    ["Apache Spark", "apache_spark.png"],
-    ["Databricks", "databricks.png"],
+    ["POWER_BI", "F2C811", "powerbi", "black"],
+    ["LOOKER_STUDIO", "4285F4", "looker", "black"],
+    ["GOOGLE_BIGQUERY", "669DF6", "googlebigquery", "black"],
+    ["TABLEAU", "E97627", "tableau", "black"],
+    ["MICROSOFT_EXCEL", "217346", "microsoftexcel", "white"],
+    ["APACHE_SPARK", "E25A1C", "apachespark", "black"],
+    ["DATABRICKS", "FF3621", "databricks", "black"],
   ]],
   ["AI and ML", [
-    ["FastAPI", "fastapi.png"],
-    ["PyTorch", "pytorch.png"],
-    ["Hugging Face", "huggingface.png"],
+    ["FASTAPI", "009688", "fastapi", "black"],
+    ["PYTORCH", "EE4C2C", "pytorch", "black"],
+    ["HUGGING_FACE", "FFD21E", "huggingface", "black"],
   ]],
 ];
-const technologyIconHtml = technologyGroups
-  .map(([group, icons]) => `| ${group} | ${icons
-    .map(([name, file, color]) => file
-      ? `<img src="${iconBase}/${file}" alt="${name}" title="${name}" width="38" height="38" />`
-      : badge(name, color))
-    .join(" ")} |`)
-  .join("\n");
+const technologyBadgeMarkdown = technologyGroups
+  .map(([group, badges]) => `### ${group}\n\n${badges.map((entry) => badge(...entry)).join(" ")}`)
+  .join("\n\n");
 
 const languageRows = top(languages, 5)
   .map(([lang, count]) => `| ${lang} | ${count} repo${count === 1 ? "" : "s"} |`)
@@ -333,15 +328,7 @@ Raw data / documents / APIs
 
 ## Technical Stack
 
-| Area | Technologies |
-| --- | --- |
-${technologyIconHtml}
-
-**Languages:** Python, SQL, TypeScript  
-**Analytics:** Pandas, NumPy, Power BI, Tableau, Looker, Excel  
-**Data:** PostgreSQL, BigQuery, Snowflake, DuckDB, dbt  
-**AI:** RAG, LangChain, vector search, prompt engineering, evaluation  
-**Backend & Tools:** FastAPI, Docker, GitHub Actions, REST APIs
+${technologyBadgeMarkdown}
 
 ## Repository Languages
 
