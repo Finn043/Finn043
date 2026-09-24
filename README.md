@@ -21,7 +21,7 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 <p>
   <img alt="Public repos" src="https://img.shields.io/badge/Public_repos-16-111827?style=flat-square">
   <img alt="Portfolio repos" src="https://img.shields.io/badge/Tracked_projects-16-111827?style=flat-square">
-  <img alt="Recent repos" src="https://img.shields.io/badge/Recently_touched-7-111827?style=flat-square">
+  <img alt="Recent repos" src="https://img.shields.io/badge/Recently_touched-8-111827?style=flat-square">
   <img alt="Stars" src="https://img.shields.io/badge/Stars-0-111827?style=flat-square">
   <img alt="Forks" src="https://img.shields.io/badge/Forks-0-111827?style=flat-square">
 </p>
@@ -131,7 +131,7 @@ Automated ETL and analytics dashboard project with BigQuery-ready modelling, dat
 **Status:** Active work / beta  
 **Impact:** Turns 250,000 valid Amazon review rows into product, rating, trend, and data-quality marts.  
 **Stack:** Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports  
-**Updated:** 2026-07-02  
+**Updated:** 2026-09-24  
 **Links:** [GitHub](https://github.com/Finn043/retail-electronics-analytics)
 
 Python analytics project that transforms raw product review data into product, rating, review-volume, and data-quality insights for BI reporting.
@@ -145,7 +145,7 @@ Python analytics project that transforms raw product review data into product, r
 **Status:** Live Netlify portfolio  
 **Impact:** Public portfolio hub for analytics projects, resume, dashboard previews, and AI assistant.  
 **Stack:** React, TypeScript, Vite, Netlify, GitHub Actions  
-**Updated:** 2026-09-23  
+**Updated:** 2026-09-24  
 **Links:** [Live site](https://tin-luong-portfolio.netlify.app) / [GitHub](https://github.com/Finn043/tin-luong-portfolio)
 
 Personal portfolio site for analytics, BI, and applied AI work.
@@ -195,10 +195,10 @@ Raw data / documents / APIs
 
 | Language | Count |
 | --- | ---: |
-| Python | 5 repos |
 | JavaScript | 4 repos |
+| Python | 4 repos |
 | TypeScript | 3 repos |
-| HTML | 2 repos |
+| HTML | 3 repos |
 
 ## Contact
 
@@ -206,4 +206,4 @@ Raw data / documents / APIs
 - LinkedIn: [linkedin.com/in/tin-luong](https://linkedin.com/in/tin-luong)
 - Email: [tin.bao.luong@gmail.com](mailto:tin.bao.luong@gmail.com)
 
-<sub>Last rendered: 2026-09-23. Metrics refresh daily with GitHub Actions.</sub>
+<sub>Last rendered: 2026-09-24. Metrics refresh daily with GitHub Actions.</sub>
