@@ -21,7 +21,7 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 <p>
   <img alt="Public repos" src="https://img.shields.io/badge/Public_repos-16-111827?style=flat-square">
   <img alt="Portfolio repos" src="https://img.shields.io/badge/Tracked_projects-16-111827?style=flat-square">
-  <img alt="Recent repos" src="https://img.shields.io/badge/Recently_touched-8-111827?style=flat-square">
+  <img alt="Recent repos" src="https://img.shields.io/badge/Recently_touched-6-111827?style=flat-square">
   <img alt="Stars" src="https://img.shields.io/badge/Stars-0-111827?style=flat-square">
   <img alt="Forks" src="https://img.shields.io/badge/Forks-0-111827?style=flat-square">
 </p>
@@ -206,4 +206,4 @@ Raw data / documents / APIs
 - LinkedIn: [linkedin.com/in/tin-luong](https://linkedin.com/in/tin-luong)
 - Email: [tin.bao.luong@gmail.com](mailto:tin.bao.luong@gmail.com)
 
-<sub>Last rendered: 2026-10-07. Metrics refresh daily with GitHub Actions.</sub>
+<sub>Last rendered: 2026-10-08. Metrics refresh daily with GitHub Actions.</sub>

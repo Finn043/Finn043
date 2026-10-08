@@ -16,7 +16,7 @@
     <animate attributeName="r" values="34;52;34" dur="5s" repeatCount="indefinite"/>
   </circle>
   <text x="52" y="48" fill="#f8fafc" font-size="24" font-family="Arial" font-weight="700">GitHub Signal</text>
-  <text x="52" y="72" fill="#93c5fd" font-size="13" font-family="Arial">Rendered from live repository metadata on 2026-10-07</text>
+  <text x="52" y="72" fill="#93c5fd" font-size="13" font-family="Arial">Rendered from live repository metadata on 2026-10-08</text>
   <text x="52" y="106" fill="#dbeafe" font-size="14" font-family="Arial">JavaScript</text>
   <rect x="160" y="88" width="320" height="18" rx="9" fill="url(#bar)">
     <animate attributeName="width" from="24" to="320" dur="0.8s" fill="freeze" />
@@ -39,7 +39,7 @@
   <text x="334" y="216" fill="#93c5fd" font-size="12" font-family="Arial">2</text>
   <text x="560" y="136" fill="#f8fafc" font-size="42" font-family="Arial" font-weight="700">16</text>
   <text x="560" y="160" fill="#93c5fd" font-size="13" font-family="Arial">tracked repos</text>
-  <text x="690" y="136" fill="#f8fafc" font-size="42" font-family="Arial" font-weight="700">8</text>
+  <text x="690" y="136" fill="#f8fafc" font-size="42" font-family="Arial" font-weight="700">6</text>
   <text x="690" y="160" fill="#93c5fd" font-size="13" font-family="Arial">recent updates</text>
   <text x="560" y="224" fill="#f8fafc" font-size="42" font-family="Arial" font-weight="700">0</text>
   <text x="560" y="248" fill="#93c5fd" font-size="13" font-family="Arial">stars</text>
