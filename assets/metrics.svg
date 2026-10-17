@@ -16,7 +16,7 @@
     <animate attributeName="r" values="34;52;34" dur="5s" repeatCount="indefinite"/>
   </circle>
   <text x="52" y="48" fill="#f8fafc" font-size="24" font-family="Arial" font-weight="700">GitHub Signal</text>
-  <text x="52" y="72" fill="#93c5fd" font-size="13" font-family="Arial">Rendered from live repository metadata on 2026-10-16</text>
+  <text x="52" y="72" fill="#93c5fd" font-size="13" font-family="Arial">Rendered from live repository metadata on 2026-10-17</text>
   <text x="52" y="106" fill="#dbeafe" font-size="14" font-family="Arial">JavaScript</text>
   <rect x="160" y="88" width="320" height="18" rx="9" fill="url(#bar)">
     <animate attributeName="width" from="24" to="320" dur="0.8s" fill="freeze" />
@@ -27,12 +27,12 @@
     <animate attributeName="width" from="24" to="320" dur="0.92s" fill="freeze" />
   </rect>
   <text x="494" y="140" fill="#93c5fd" font-size="12" font-family="Arial">4</text>
-<text x="52" y="182" fill="#dbeafe" font-size="14" font-family="Arial">HTML</text>
+<text x="52" y="182" fill="#dbeafe" font-size="14" font-family="Arial">TypeScript</text>
   <rect x="160" y="164" width="240" height="18" rx="9" fill="url(#bar)">
     <animate attributeName="width" from="24" to="240" dur="1.04s" fill="freeze" />
   </rect>
   <text x="414" y="178" fill="#93c5fd" font-size="12" font-family="Arial">3</text>
-<text x="52" y="220" fill="#dbeafe" font-size="14" font-family="Arial">TypeScript</text>
+<text x="52" y="220" fill="#dbeafe" font-size="14" font-family="Arial">HTML</text>
   <rect x="160" y="202" width="240" height="18" rx="9" fill="url(#bar)">
     <animate attributeName="width" from="24" to="240" dur="1.1600000000000001s" fill="freeze" />
   </rect>
