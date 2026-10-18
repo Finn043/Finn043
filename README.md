@@ -205,8 +205,8 @@ Raw data / documents / APIs
 | Language | Count |
 | --- | ---: |
 | Python | 5 repos |
-| TypeScript | 4 repos |
 | JavaScript | 4 repos |
+| TypeScript | 4 repos |
 | HTML | 3 repos |
 | Jupyter Notebook | 2 repos |
 
