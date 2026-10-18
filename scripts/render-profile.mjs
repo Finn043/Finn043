@@ -52,6 +52,7 @@ const descriptions = {
   "icmra-strategic-analytics": "Power BI fundraising analytics project covering 2019-2025 pledges, donor behavior, campaign concentration, cohort retention, and board-level risk.",
   "automated-etl-analytics": "Automated ETL and analytics dashboard project with BigQuery-ready modelling, data-quality tests, star schema marts, and Looker Studio dashboard design.",
   "tin-luong-portfolio": "Personal portfolio site for analytics, BI, and applied AI work.",
+  "ai-engineer-portfolio": "AI Engineer portfolio for RAG, applied machine learning, model evaluation, and cloud architecture.",
   "retail-electronics-analytics": "Python analytics project that transforms raw product review data into product, rating, review-volume, and data-quality insights for BI reporting.",
   macrobrief: "Economic insight tool with World Bank API ingestion, time-series marts, stakeholder briefs, and a live Looker Studio dashboard.",
 };
@@ -60,6 +61,7 @@ const stacks = {
   "icmra-strategic-analytics": "Power BI, Power Query, BI semantic modelling, RFM segmentation, CLV, cohort analysis",
   "automated-etl-analytics": "Python, Pandas, SQLAlchemy, PostgreSQL, BigQuery, GoogleSQL, Looker Studio",
   "tin-luong-portfolio": "React, TypeScript, Vite, Netlify, GitHub Actions",
+  "ai-engineer-portfolio": "HTML, CSS, JavaScript, Netlify, responsive UI",
   "retail-electronics-analytics": "Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports",
   "snowflake-customer-revenue-mart": "Snowflake, SQL, Snowsight, BI-ready marts, data quality checks",
   macrobrief: "Python, World Bank API, time-series marts, Looker Studio, markdown reporting",
@@ -68,38 +70,38 @@ const stacks = {
 const experiences = [
   {
     company: "Filum.ai",
-    role: "Data Analyst Intern",
-    period: "2024",
-    impact: "Built KPI dashboards and lead scoring models that supported a 15% conversion improvement.",
+    role: "Data Analyst",
+    period: "Nov 2025 - Present",
+    impact: "Built BigQuery lead-scoring pipelines that increased sales conversion by 15% and maintained data models across 50+ KPIs.",
     tools: ["BigQuery", "SQL", "Dashboard QA", "KPI Design"],
     contributions: [
-      "Designed customer engagement, conversion, and retention dashboards across 50+ KPIs.",
-      "Built lead scoring analysis in BigQuery to identify stronger conversion signals.",
-      "Translated stakeholder questions into metric definitions and reusable reporting views.",
+      "Engineered automated lead-scoring classification pipelines in BigQuery using customer behavioral attributes and interaction data.",
+      "Validated centralized data models across touchpoints for operational and predictive analytics.",
+      "Identified churn signals and feature-adoption patterns, translating analysis into recommendations for Product and Sales.",
     ],
   },
   {
     company: "CoverGo",
     role: "AI Engineer Intern",
-    period: "2024",
-    impact: "Created validation datasets and Python checks for insurance AI workflows, reducing manual review time by 25%.",
+    period: "May 2025 - Feb 2026",
+    impact: "Supported medical-insurance RAG evaluation and automated QA checks, reducing manual review time by 25%.",
     tools: ["Python", "Pandas", "NLP QA", "Test Datasets"],
     contributions: [
-      "Built structured test data covering insurance-product questions, edge cases, and expected answers.",
-      "Automated repetitive review checks with Python so QA evidence was easier to reproduce.",
-      "Documented model-output issues so product and engineering teams could triage failures faster.",
+      "Supported a production RAG workflow for medical insurance document retrieval, focusing on context accuracy and source grounding.",
+      "Constructed 200+ Q&A validation examples to benchmark outputs, identify hallucinations, and track domain exceptions.",
+      "Developed Python and API-based retrieval automation to reduce manual QA review and information retrieval time.",
     ],
   },
   {
     company: "MoMo",
     role: "Data Analyst Intern",
-    period: "2023",
-    impact: "Supported daily data operations over 1M+ rows with 99.95% uptime and trained teams on dashboard usage.",
+    period: "Nov 2024 - Apr 2025",
+    impact: "Supported a 10% lift in chatbot engagement and maintained two pipelines processing 1M+ rows daily at 99.95% uptime.",
     tools: ["SQL", "Excel", "BI Dashboards", "Data Operations"],
     contributions: [
-      "Monitored daily reporting pipelines and helped maintain operational dashboards for business teams.",
-      "Prepared analysis for product launches and engagement reporting across multiple departments.",
-      "Trained stakeholders on dashboard usage, metric interpretation, and recurring reporting workflows.",
+      "Designed analytics schemas for chatbot intents, session metadata, and dialogue turns to support scalable reporting.",
+      "Analyzed dialogue fallbacks, session drop-offs, and A/B test variants, contributing to a 10% engagement lift.",
+      "Maintained two production data pipelines processing 1M+ rows per day at 99.95% uptime.",
     ],
   },
 ];
@@ -189,25 +191,40 @@ const projects = [
       ["GitHub", "https://github.com/Finn043/tin-luong-portfolio"],
     ],
   },
+  {
+    name: "ai-engineer-portfolio",
+    title: "AI Engineer Portfolio",
+    status: "Live Netlify portfolio",
+    impact: "A CV-aligned portfolio for AI engineering, RAG, applied ML, and data foundations.",
+    summary: descriptions["ai-engineer-portfolio"],
+    evidence: [
+      "Built as a lightweight static site with a responsive, CV-inspired design.",
+      "Includes interactive experience details, project metrics and implementation modals, technical skills, education, and certifications.",
+      "Features a live project hub and downloadable AI Engineer CV.",
+    ],
+    links: [
+      ["Live site", "https://bao-tin-luong-ai-portfolio.netlify.app"],
+      ["GitHub", "https://github.com/Finn043/ai-engineer-portfolio"],
+    ],
+  },
 ];
 
 const formatLinks = (links) => links.map(([label, url]) => `[${label}](${url})`).join(" / ");
 const experienceMarkdown = experiences.map((item) => `### ${item.company} - ${item.role} (${item.period})
 
-**Impact:** ${item.impact}  
+**Impact:** ${item.impact}<br>
 **Tools:** ${item.tools.join(", ")}
 
 ${item.contributions.map((line) => `- ${line}`).join("\n")}
 `).join("\n");
 const projectMarkdown = projects.map((project) => {
   const repo = repoByName.get(project.name);
-  const updated = repo?.pushed_at ? `  
-**Updated:** ${repo.pushed_at.slice(0, 10)}` : "";
+  const updated = repo?.pushed_at ? `<br>**Updated:** ${repo.pushed_at.slice(0, 10)}` : "";
   return `### ${project.title}
 
-**Status:** ${project.status}  
-**Impact:** ${project.impact}  
-**Stack:** ${stacks[project.name] ?? "See project README"}${updated}  
+**Status:** ${project.status}<br>
+**Impact:** ${project.impact}<br>
+**Stack:** ${stacks[project.name] ?? "See project README"}${updated}<br>
 **Links:** ${formatLinks(project.links)}
 
 ${project.summary}
@@ -246,6 +263,10 @@ const technologyGroups = [
   ]],
   ["AI and ML", [
     ["FASTAPI", "009688", "fastapi", "black"],
+    ["LANGCHAIN", "1C3C3C", "langchain", "white"],
+    ["OPENAI", "412991", "openai", "white"],
+    ["TENSORFLOW", "FF6F00", "tensorflow", "white"],
+    ["SCIKIT_LEARN", "F7931E", "scikitlearn", "black"],
     ["PYTORCH", "EE4C2C", "pytorch", "black"],
     ["HUGGING_FACE", "FFD21E", "huggingface", "black"],
   ]],
@@ -268,12 +289,13 @@ const readme = `<!-- generated by scripts/render-profile.mjs; edit the script, n
 
 # Tin Luong
 
-Data Scientist and AI Engineer based in Melbourne, Australia.
+AI Engineer and Data Analyst based in Melbourne, Australia.
 
 I build analytics and AI systems that turn raw data, documents, and APIs into validated, stakeholder-ready decisions. My work sits across business intelligence, data pipelines, RAG systems, and Python automation for operational data problems.
 
 <p>
-  <a href="https://tin-luong-portfolio.netlify.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-live-0f766e?style=for-the-badge"></a>
+  <a href="https://bao-tin-luong-ai-portfolio.netlify.app"><img alt="AI portfolio" src="https://img.shields.io/badge/AI_Portfolio-live-7543b8?style=for-the-badge"></a>
+  <a href="https://tin-luong-portfolio.netlify.app"><img alt="Data portfolio" src="https://img.shields.io/badge/Data_Portfolio-live-0f766e?style=for-the-badge"></a>
   <a href="https://www.linkedin.com/in/tin-luong"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Tin%20Luong-2563eb?style=for-the-badge"></a>
   <a href="mailto:tin.bao.luong@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-tin.bao.luong%40gmail.com-7c3aed?style=for-the-badge"></a>
 </p>
@@ -294,9 +316,10 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 
 ## Current Focus
 
+- LLM applications, retrieval-augmented generation, and source-grounded answers
+- Applied machine learning, model evaluation, and Python engineering
 - Business intelligence, KPI reporting, and dashboard-ready analytics marts
 - Python and SQL pipelines for cleaning, validating, and transforming data
-- RAG and document intelligence for cited, source-grounded answers
 - API integrations and typed tool interfaces for analyst workflows
 - Applied AI for decision support, not generic demos
 

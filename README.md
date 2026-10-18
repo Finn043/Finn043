@@ -6,12 +6,13 @@
 
 # Tin Luong
 
-Data Scientist and AI Engineer based in Melbourne, Australia.
+AI Engineer and Data Analyst based in Melbourne, Australia.
 
 I build analytics and AI systems that turn raw data, documents, and APIs into validated, stakeholder-ready decisions. My work sits across business intelligence, data pipelines, RAG systems, and Python automation for operational data problems.
 
 <p>
-  <a href="https://tin-luong-portfolio.netlify.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-live-0f766e?style=for-the-badge"></a>
+  <a href="https://bao-tin-luong-ai-portfolio.netlify.app"><img alt="AI portfolio" src="https://img.shields.io/badge/AI_Portfolio-live-7543b8?style=for-the-badge"></a>
+  <a href="https://tin-luong-portfolio.netlify.app"><img alt="Data portfolio" src="https://img.shields.io/badge/Data_Portfolio-live-0f766e?style=for-the-badge"></a>
   <a href="https://www.linkedin.com/in/tin-luong"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Tin%20Luong-2563eb?style=for-the-badge"></a>
   <a href="mailto:tin.bao.luong@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-tin.bao.luong%40gmail.com-7c3aed?style=for-the-badge"></a>
 </p>
@@ -19,9 +20,9 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 ## Live Metrics
 
 <p>
-  <img alt="Public repos" src="https://img.shields.io/badge/Public_repos-17-111827?style=flat-square">
-  <img alt="Portfolio repos" src="https://img.shields.io/badge/Tracked_projects-17-111827?style=flat-square">
-  <img alt="Recent repos" src="https://img.shields.io/badge/Recently_touched-7-111827?style=flat-square">
+  <img alt="Public repos" src="https://img.shields.io/badge/Public_repos-22-111827?style=flat-square">
+  <img alt="Portfolio repos" src="https://img.shields.io/badge/Tracked_projects-22-111827?style=flat-square">
+  <img alt="Recent repos" src="https://img.shields.io/badge/Recently_touched-12-111827?style=flat-square">
   <img alt="Stars" src="https://img.shields.io/badge/Stars-0-111827?style=flat-square">
   <img alt="Forks" src="https://img.shields.io/badge/Forks-0-111827?style=flat-square">
 </p>
@@ -32,50 +33,50 @@ I build analytics and AI systems that turn raw data, documents, and APIs into va
 
 ## Current Focus
 
+- LLM applications, retrieval-augmented generation, and source-grounded answers
+- Applied machine learning, model evaluation, and Python engineering
 - Business intelligence, KPI reporting, and dashboard-ready analytics marts
 - Python and SQL pipelines for cleaning, validating, and transforming data
-- RAG and document intelligence for cited, source-grounded answers
 - API integrations and typed tool interfaces for analyst workflows
 - Applied AI for decision support, not generic demos
 
 ## Career Experience
 
-### Filum.ai - Data Analyst Intern (2024)
+### Filum.ai - Data Analyst (Nov 2025 - Present)
 
-**Impact:** Built KPI dashboards and lead scoring models that supported a 15% conversion improvement.  
+**Impact:** Built BigQuery lead-scoring pipelines that increased sales conversion by 15% and maintained data models across 50+ KPIs.<br>
 **Tools:** BigQuery, SQL, Dashboard QA, KPI Design
 
-- Designed customer engagement, conversion, and retention dashboards across 50+ KPIs.
-- Built lead scoring analysis in BigQuery to identify stronger conversion signals.
-- Translated stakeholder questions into metric definitions and reusable reporting views.
+- Engineered automated lead-scoring classification pipelines in BigQuery using customer behavioral attributes and interaction data.
+- Validated centralized data models across touchpoints for operational and predictive analytics.
+- Identified churn signals and feature-adoption patterns, translating analysis into recommendations for Product and Sales.
 
-### CoverGo - AI Engineer Intern (2024)
+### CoverGo - AI Engineer Intern (May 2025 - Feb 2026)
 
-**Impact:** Created validation datasets and Python checks for insurance AI workflows, reducing manual review time by 25%.  
+**Impact:** Supported medical-insurance RAG evaluation and automated QA checks, reducing manual review time by 25%.<br>
 **Tools:** Python, Pandas, NLP QA, Test Datasets
 
-- Built structured test data covering insurance-product questions, edge cases, and expected answers.
-- Automated repetitive review checks with Python so QA evidence was easier to reproduce.
-- Documented model-output issues so product and engineering teams could triage failures faster.
+- Supported a production RAG workflow for medical insurance document retrieval, focusing on context accuracy and source grounding.
+- Constructed 200+ Q&A validation examples to benchmark outputs, identify hallucinations, and track domain exceptions.
+- Developed Python and API-based retrieval automation to reduce manual QA review and information retrieval time.
 
-### MoMo - Data Analyst Intern (2023)
+### MoMo - Data Analyst Intern (Nov 2024 - Apr 2025)
 
-**Impact:** Supported daily data operations over 1M+ rows with 99.95% uptime and trained teams on dashboard usage.  
+**Impact:** Supported a 10% lift in chatbot engagement and maintained two pipelines processing 1M+ rows daily at 99.95% uptime.<br>
 **Tools:** SQL, Excel, BI Dashboards, Data Operations
 
-- Monitored daily reporting pipelines and helped maintain operational dashboards for business teams.
-- Prepared analysis for product launches and engagement reporting across multiple departments.
-- Trained stakeholders on dashboard usage, metric interpretation, and recurring reporting workflows.
+- Designed analytics schemas for chatbot intents, session metadata, and dialogue turns to support scalable reporting.
+- Analyzed dialogue fallbacks, session drop-offs, and A/B test variants, contributing to a 10% engagement lift.
+- Maintained two production data pipelines processing 1M+ rows per day at 99.95% uptime.
 
 
 ## Selected Work
 
 ### MacroBrief
 
-**Status:** Main completed project  
-**Impact:** Cut macro brief generation time by 45%.  
-**Stack:** Python, World Bank API, time-series marts, Looker Studio, markdown reporting  
-**Updated:** 2026-08-22  
+**Status:** Main completed project<br>
+**Impact:** Cut macro brief generation time by 45%.<br>
+**Stack:** Python, World Bank API, time-series marts, Looker Studio, markdown reporting<br>**Updated:** 2026-08-22<br>
 **Links:** [GitHub](https://github.com/Finn043/macrobrief) / [Looker Studio dashboard](https://datastudio.google.com/reporting/91b52781-28ab-4d0d-aa12-716720592161)
 
 Economic insight tool with World Bank API ingestion, time-series marts, stakeholder briefs, and a live Looker Studio dashboard.
@@ -86,10 +87,9 @@ Economic insight tool with World Bank API ingestion, time-series marts, stakehol
 
 ### ICMRA Strategic Analytics 2019-2025
 
-**Status:** Main completed Power BI project  
-**Impact:** Analyzed $32.93M in pledges across 2,330 donors and 45,100 transactions.  
-**Stack:** Power BI, Power Query, BI semantic modelling, RFM segmentation, CLV, cohort analysis  
-**Updated:** 2026-08-24  
+**Status:** Main completed Power BI project<br>
+**Impact:** Analyzed $32.93M in pledges across 2,330 donors and 45,100 transactions.<br>
+**Stack:** Power BI, Power Query, BI semantic modelling, RFM segmentation, CLV, cohort analysis<br>**Updated:** 2026-08-24<br>
 **Links:** [GitHub](https://github.com/Finn043/icmra-strategic-analytics)
 
 Power BI fundraising analytics project covering 2019-2025 pledges, donor behavior, campaign concentration, cohort retention, and board-level risk.
@@ -100,10 +100,9 @@ Power BI fundraising analytics project covering 2019-2025 pledges, donor behavio
 
 ### Snowflake Customer Revenue Mart
 
-**Status:** Active work  
-**Impact:** Models raw customer, order, and marketing spend data into BI-ready revenue marts.  
-**Stack:** Snowflake, SQL, Snowsight, BI-ready marts, data quality checks  
-**Updated:** 2026-08-24  
+**Status:** Active work<br>
+**Impact:** Models raw customer, order, and marketing spend data into BI-ready revenue marts.<br>
+**Stack:** Snowflake, SQL, Snowsight, BI-ready marts, data quality checks<br>**Updated:** 2026-08-24<br>
 **Links:** [GitHub](https://github.com/Finn043/snowflake-customer-revenue-mart)
 
 Snowflake analytics engineering project for monthly revenue, customer value, CAC, and ROAS reporting.
@@ -114,10 +113,9 @@ Snowflake analytics engineering project for monthly revenue, customer value, CAC
 
 ### Automated ETL Analytics
 
-**Status:** Active work / beta  
-**Impact:** Processes 500,000 deterministic records per run into validated reporting outputs.  
-**Stack:** Python, Pandas, SQLAlchemy, PostgreSQL, BigQuery, GoogleSQL, Looker Studio  
-**Updated:** 2026-07-19  
+**Status:** Active work / beta<br>
+**Impact:** Processes 500,000 deterministic records per run into validated reporting outputs.<br>
+**Stack:** Python, Pandas, SQLAlchemy, PostgreSQL, BigQuery, GoogleSQL, Looker Studio<br>**Updated:** 2026-07-19<br>
 **Links:** [GitHub](https://github.com/Finn043/automated-etl-analytics)
 
 Automated ETL and analytics dashboard project with BigQuery-ready modelling, data-quality tests, star schema marts, and Looker Studio dashboard design.
@@ -128,10 +126,9 @@ Automated ETL and analytics dashboard project with BigQuery-ready modelling, dat
 
 ### Retail Electronics Analytics Pipeline
 
-**Status:** Active work / beta  
-**Impact:** Turns 250,000 valid Amazon review rows into product, rating, trend, and data-quality marts.  
-**Stack:** Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports  
-**Updated:** 2026-09-24  
+**Status:** Active work / beta<br>
+**Impact:** Turns 250,000 valid Amazon review rows into product, rating, trend, and data-quality marts.<br>
+**Stack:** Python, Pandas, JSONL streaming, BI marts, Excel model, Looker Studio-ready exports<br>**Updated:** 2026-09-24<br>
 **Links:** [GitHub](https://github.com/Finn043/retail-electronics-analytics)
 
 Python analytics project that transforms raw product review data into product, rating, review-volume, and data-quality insights for BI reporting.
@@ -142,10 +139,9 @@ Python analytics project that transforms raw product review data into product, r
 
 ### Portfolio Website
 
-**Status:** Live Netlify portfolio  
-**Impact:** Public portfolio hub for analytics projects, resume, dashboard previews, and AI assistant.  
-**Stack:** React, TypeScript, Vite, Netlify, GitHub Actions  
-**Updated:** 2026-10-17  
+**Status:** Live Netlify portfolio<br>
+**Impact:** Public portfolio hub for analytics projects, resume, dashboard previews, and AI assistant.<br>
+**Stack:** React, TypeScript, Vite, Netlify, GitHub Actions<br>**Updated:** 2026-10-17<br>
 **Links:** [Live site](https://tin-luong-portfolio.netlify.app) / [GitHub](https://github.com/Finn043/tin-luong-portfolio)
 
 Personal portfolio site for analytics, BI, and applied AI work.
@@ -153,6 +149,19 @@ Personal portfolio site for analytics, BI, and applied AI work.
 - Built with React, TypeScript, Vite, Netlify Functions, and a local portfolio knowledge base.
 - Includes project cards for MacroBrief, ICMRA, Snowflake, Automated ETL, and Retail Electronics.
 - Provides a small assistant endpoint for recruiter-style questions about experience, projects, stack, and contact details.
+
+### AI Engineer Portfolio
+
+**Status:** Live Netlify portfolio<br>
+**Impact:** A CV-aligned portfolio for AI engineering, RAG, applied ML, and data foundations.<br>
+**Stack:** HTML, CSS, JavaScript, Netlify, responsive UI<br>**Updated:** 2026-10-18<br>
+**Links:** [Live site](https://bao-tin-luong-ai-portfolio.netlify.app) / [GitHub](https://github.com/Finn043/ai-engineer-portfolio)
+
+AI Engineer portfolio for RAG, applied machine learning, model evaluation, and cloud architecture.
+
+- Built as a lightweight static site with a responsive, CV-inspired design.
+- Includes interactive experience details, project metrics and implementation modals, technical skills, education, and certifications.
+- Features a live project hub and downloadable AI Engineer CV.
 
 
 ### InsightRAG
@@ -189,16 +198,17 @@ Raw data / documents / APIs
 
 ### AI and ML
 
-![FASTAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=black) ![PYTORCH](https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=black) ![HUGGING_FACE](https://img.shields.io/badge/HUGGING_FACE-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![FASTAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=black) ![LANGCHAIN](https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![OPENAI](https://img.shields.io/badge/OPENAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![TENSORFLOW](https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![SCIKIT_LEARN](https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=black) ![PYTORCH](https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=black) ![HUGGING_FACE](https://img.shields.io/badge/HUGGING_FACE-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 ## Repository Languages
 
 | Language | Count |
 | --- | ---: |
+| Python | 5 repos |
+| TypeScript | 4 repos |
 | JavaScript | 4 repos |
-| Python | 4 repos |
-| TypeScript | 3 repos |
 | HTML | 3 repos |
+| Jupyter Notebook | 2 repos |
 
 ## Contact
 
@@ -206,4 +216,4 @@ Raw data / documents / APIs
 - LinkedIn: [linkedin.com/in/tin-luong](https://linkedin.com/in/tin-luong)
 - Email: [tin.bao.luong@gmail.com](mailto:tin.bao.luong@gmail.com)
 
-<sub>Last rendered: 2026-10-17. Metrics refresh daily with GitHub Actions.</sub>
+<sub>Last rendered: 2026-10-18. Metrics refresh daily with GitHub Actions.</sub>
