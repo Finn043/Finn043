@@ -205,8 +205,8 @@ Raw data / documents / APIs
 | Language | Count |
 | --- | ---: |
 | Python | 5 repos |
-| TypeScript | 4 repos |
 | JavaScript | 4 repos |
+| TypeScript | 4 repos |
 | HTML | 3 repos |
 | Jupyter Notebook | 2 repos |
 
@@ -216,4 +216,4 @@ Raw data / documents / APIs
 - LinkedIn: [linkedin.com/in/tin-luong](https://linkedin.com/in/tin-luong)
 - Email: [tin.bao.luong@gmail.com](mailto:tin.bao.luong@gmail.com)
 
-<sub>Last rendered: 2026-10-21. Metrics refresh daily with GitHub Actions.</sub>
+<sub>Last rendered: 2026-10-22. Metrics refresh daily with GitHub Actions.</sub>
